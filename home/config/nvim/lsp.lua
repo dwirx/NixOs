@@ -188,7 +188,7 @@ end
 
 -- Update this path
 local extension_path = vim.env.HOME .. "/.vscode/extensions/vadimcn.vscode-lldb/"
-local codelldb_path = extension_path .. "adapter/codelldb"
+local codelldb_path = extension_path .. "~/adapter/codelldb"
 local liblldb_path = extension_path .. "lldb/lib/liblldb"
 local this_os = vim.loop.os_uname().sysname
 
