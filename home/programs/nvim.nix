@@ -82,6 +82,13 @@
         # (fromGitHub "HEAD" "mechatroner/rainbow_csv")
         blamer-nvim
 
+       #mason
+       {
+        plugin = mason-nvim;
+        type = "lua";
+        config = builtins.readFile ../config/nvim/mason.lua;
+       }
+
         dressing-nvim
         rust-tools-nvim
         rustaceanvim
