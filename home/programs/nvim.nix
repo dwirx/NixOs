@@ -84,6 +84,7 @@
 
         dressing-nvim
         rust-tools-nvim
+        rustaceanvim
         nvim-notify
         vim-android
         neoconf-nvim
