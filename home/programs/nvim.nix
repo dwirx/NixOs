@@ -68,10 +68,10 @@
         null-ls-nvim
         markdown-preview-nvim
         nvim-jdtls
-        {
-          plugin = (pluginGit "mechatroner" "rainbow_csv" "master" "06v9l2yy5pzkdgb8n32bwz9y4aq4ngixhp0h5zq06q92z4x5nbbp");
-          type = "lua";
-        }
+        # {
+        #   plugin = (pluginGit "mechatroner" "rainbow_csv" "master" "06v9l2yy5pzkdgb8n32bwz9y4aq4ngixhp0h5zq06q92z4x5nbbp");
+        #   type = "lua";
+        # }
 
         dressing-nvim
         rust-tools-nvim
