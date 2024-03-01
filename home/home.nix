@@ -19,6 +19,7 @@
     gdu
     nodejs
     # cargo
+    lldb
 
     #files
     ranger
@@ -92,6 +93,8 @@
     ./setting.nix
     ./programs/tools.nix
     ./programs/nvim.nix
+    ./programs/vscode.nix
+
 
   ];
   programs = {

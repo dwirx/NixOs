@@ -38,7 +38,7 @@ dap.adapters.codelldb = require("rust-tools.dap").get_codelldb_adapter(codelldb_
 dap.adapters.cppdbg = {
 	id = "cppdbg",
 	type = "executable",
-	command = "/home/mustafa/.local/share/ccptools/extension/debugAdapters/bin/OpenDebugAD7",
+	command = "/home/hades/.local/share/ccptools/extension/debugAdapters/bin/OpenDebugAD7",
 }
 
 -- dap.adapters.codelldb = {
