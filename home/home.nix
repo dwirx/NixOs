@@ -9,6 +9,9 @@
     #Language
     bun
     #############
+    rnix-lsp
+    nodePackages.typescript-language-server
+    nodePackages.vscode-langservers-extracted
 
     bat
     vim

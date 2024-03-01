@@ -11,7 +11,7 @@
 
     plugins =
       let
-        fromGitHub = rev: ref: repo: pkgs.vimUtils.buildVimPluginFrom2Nix {
+        fromGitHub = rev: ref: repo: pkgs.vimUtils.buildVimPlugin {
             pname = "${libs.strings.sanitizeDerivationName repo}";
             version = ref;
             src = builtins.fetchGit {
@@ -79,7 +79,8 @@
         null-ls-nvim
         markdown-preview-nvim
         nvim-jdtls
-        (fromGitHub "HEAD" "mechatroner/rainbow_csv")
+        # (fromGitHub "HEAD" "mechatroner/rainbow_csv")
+        blamer-nvim
 
         dressing-nvim
         rust-tools-nvim
