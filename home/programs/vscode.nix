@@ -19,7 +19,7 @@
       formulahendry.auto-rename-tag
       formulahendry.code-runner
       prisma.prisma
-      github.copilot
+      # github.copilot
       graphql.vscode-graphql
       irongeek.vscode-env
       mechatroner.rainbow-csv
@@ -243,7 +243,7 @@
       };
       "terminal.integrated.defaultProfile.linux" = "tmux";
       "explorer.confirmDelete" = false;
-      "java.jdt.ls.vmargs" = "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/mustafa/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"";
+      "java.jdt.ls.vmargs" = "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/hades/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"";
       "explorer.confirmDragAndDrop" = false;
       "bracketPairColorizer.depreciation-notice" = false;
       "[javascriptreact]" = {
@@ -252,12 +252,6 @@
       "editor.inlineSuggest.enabled" = true;
       "svelte.enable-ts-plugin" = true;
       "svelte.plugin.svelte.note-new-transformation" = false;
-      "github.copilot.enable" = {
-        "*" = true;
-        "yaml" = false;
-        "plaintext" = true;
-        "markdown" = false;
-      };
       "cmake.configureOnOpen" = true;
       "update.showReleaseNotes" = false;
     };

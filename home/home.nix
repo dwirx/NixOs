@@ -93,7 +93,7 @@
     ./setting.nix
     ./programs/tools.nix
     ./programs/nvim.nix
-    ./programs/vscode.nix
+    # ./programs/vscode.nix
 
 
   ];
