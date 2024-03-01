@@ -22,6 +22,7 @@
             sha256 = sha256;
           };
         };
+
         keymapConfig = pkgs.vimUtils.buildVimPlugin {
           name = "keymap-config";
           src = ../config/nvim/keymapconfig;
@@ -68,10 +69,6 @@
         null-ls-nvim
         markdown-preview-nvim
         nvim-jdtls
-        # {
-        #   plugin = (pluginGit "mechatroner" "rainbow_csv" "master" "06v9l2yy5pzkdgb8n32bwz9y4aq4ngixhp0h5zq06q92z4x5nbbp");
-        #   type = "lua";
-        # }
 
         dressing-nvim
         rust-tools-nvim
