@@ -96,6 +96,12 @@
         vim-android
         neoconf-nvim
 
+        {
+          plugin = rustaceanvim;
+          type = "lua";
+          config = builtins.readFile ../config/nvim/rustaceanvim.lua;
+        }
+
         #file tree
         {
           plugin = nvim-tree-lua;
