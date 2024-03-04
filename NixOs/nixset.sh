@@ -27,8 +27,10 @@ esac
 # Menentukan nama file untuk disimpan
 filename=$(basename $url)
 
-# Mengunduh file dengan curl
-curl -O $url
+# Menentukan path untuk menyimpan file
+filepath="/mnt/etc/nixos/$filename"
 
-echo "Pengunduhan selesai. File disimpan sebagai: $filename"
+# Mengunduh file dengan curl dan menyimpannya di direktori yang ditentukan
+curl -o "$filepath" $url
 
+echo "Pengunduhan selesai. File disimpan di: $filepath"
