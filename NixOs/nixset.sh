@@ -31,6 +31,6 @@ filename=$(basename $url)
 filepath="/mnt/etc/nixos/$filename"
 
 # Mengunduh file dengan curl dan menyimpannya di direktori yang ditentukan
-curl -o "$filepath" $url
+sudo curl -o "$filepath" $url
 
 echo "Pengunduhan selesai. File disimpan di: $filepath"
