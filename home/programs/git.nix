@@ -1,6 +1,15 @@
-{ ... }: {
+{ ... }:
+  let dwirx = {
+    name = "Hedra Bangun Dwi R";
+    email = "bangundwir@gmail.com";
+  };
+  in
+{
+
   programs.git = {
     enable = true;
+    userName = dwirx.name;
+    userEmail = dwirx.email;
     aliases = {
       g = "git";
       a = "add";

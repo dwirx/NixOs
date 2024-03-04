@@ -7,19 +7,19 @@
   home.packages = with pkgs; [
 
     #Language
-    bun
+#    bun
     #############
-    rnix-lsp
-    nodePackages.typescript-language-server
-    nodePackages.vscode-langservers-extracted
+#    rnix-lsp
+#    nodePackages.typescript-language-server
+#    nodePackages.vscode-langservers-extracted
 
     bat
-    vim
+#    vim
     # btop
     gdu
     nodejs
     # cargo
-    lldb
+#    lldb
 
     #files
     ranger
@@ -91,9 +91,9 @@
     ./programs/tmux.nix
     ./programs/shell.nix
     ./setting.nix
-    ./programs/tools.nix
-    ./programs/nvim.nix
-    ./programs/vscode.nix
+#    ./programs/tools.nix
+#    ./programs/nvim.nix
+#    ./programs/vscode.nix
 
 
   ];
